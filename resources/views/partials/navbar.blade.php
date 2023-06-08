@@ -1,63 +1,35 @@
 <div class="d-flex align-items-center justify-content-between">
   <a href="/dashboard" class="logo ps-md-3 d-flex align-items-center">
-    <i class="fw-bold fs-5 me-1 d-none d-md-inline">SPP</i>
-    <span class="d-none d-md-block fst-italic">admin</span>
-    <small class="badge badge-grey fs-sm rounded-pill py-1 px-2 ms-2 d-none d-lg-block">lvl. administrator</small>
+    <img src="/img/logo.png" alt="logosekolah">
+    <span class="d-none d-md-block">Admin</span>
   </a>
   <i class="bi bi-list toggle-sidebar-btn"></i>
 </div>
-
 <nav class="header-nav ms-auto">
   <ul class="d-flex align-items-center">
-
     <li class="nav-item me-3">
       <a class="nav-link">
-        <span class="badge badge-blue fs-sm rounded-pill py-2 px-3"><i class="bi bi-chevron-left me-1"></i><span class="d-none d-md-inline"><span class="fw-bold">Aplikasi Pembayaran SPP</span> - SMK TI Nusadua</span><span class="d-inline d-md-none fw-bold">mySPP</span></span>
+        <span class="rounded-pill py-2 px-3"><span class="d-none d-md-inline"><span class="fw-bold">Aplikasi Kehadiran Siswa</span> - Madrasah Aliyah</span></span>
       </a>
     </li>
-
     <li class="nav-item">
       <a class="nav-link nav-icon">
-        <i class="border-start"></i>
+        <i class="border-start d-none d-md-inline"></i>
       </a>
     </li>
-
     <li class="nav-item dropdown pe-3">
-
       <a class="nav-link nav-profile d-flex align-items-center pe-md-3 pe-lg-3" href="#" data-bs-toggle="dropdown">
-        <span class="d-block pe-3">lorem</span>
+        <span class="d-block pe-3">Teguh Pendirian</span>
         <img src="/img/profile-img.jpg" alt="Profile" class="rounded-circle border">
       </a>
-
       <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
-        <li class="dropdown-header">
-          <h6 class="fw-semibold">lorem</h6>
-          <span>lorem</span>
-        </li>
-
-        <li>
-          <a class="dropdown-item d-flex align-items-center" href="#">
-            <i class="bi bi-person"></i>
-            <span>Profile</span>
-          </a>
-        </li>
-
-        <li>
-          <a class="dropdown-item d-flex align-items-center" href="/pengaturan">
-            <i class="bi bi-gear"></i>
-            <span>Pengaturan</span>
-          </a>
-        </li>
-
         <li class="mb-2">
           <a class="dropdown-item d-flex align-items-center text-danger" href="#" data-bs-toggle="modal" data-bs-target="#disablebackdrop">
-            <i class="bi bi-chevron-left"></i>
+            <i class="bi bi-power" style="padding-bottom: 0.15rem"></i>
             <span>Logout</span>
           </a>
         </li>
-
       </ul>
     </li>
-
   </ul>
 </nav>
